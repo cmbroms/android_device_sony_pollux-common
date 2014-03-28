@@ -13,13 +13,11 @@
 # limitations under the License.
 
 # inherit from the common fusion3 definitions
--include device/sony/fusion3-common/BoardConfigCommon.mk
+include device/sony/fusion3-common/BoardConfigCommon.mk
 
 TARGET_SPECIFIC_HEADER_PATH += device/sony/pollux-common/include
 
 BOARD_BLUETOOTH_BDROID_BUILDCFG_INCLUDE_DIR := device/sony/pollux-common/bluetooth
-
-BOARD_HARDWARE_CLASS := device/sony/pollux-common/cmhw
 
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 26
